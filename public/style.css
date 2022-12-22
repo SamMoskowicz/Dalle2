@@ -1,0 +1,17 @@
+#upload-image {
+    cursor: pointer;
+}
+
+#upload {
+    display: none;
+}
+
+.gray {
+    color: gray;
+}
+
+#input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
