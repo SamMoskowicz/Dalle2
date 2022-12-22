@@ -4336,7 +4336,7 @@ const imageContainer = document.getElementById("image-container")
 
 const { Configuration, OpenAIApi } = __webpack_require__(/*! openai */ "./node_modules/openai/dist/index.js")
 const config = new Configuration({
-    apiKey: "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"
+    apiKey: "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"
 })
 
 const openai = new OpenAIApi(config)
