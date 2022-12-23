@@ -6,7 +6,7 @@ const imageContainer = document.getElementById("image-container")
 
 const { Configuration, OpenAIApi } = require("openai")
 const config = new Configuration({
-    apiKey: "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"
+    apiKey: "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"
 })
 
 const openai = new OpenAIApi(config)
@@ -14,7 +14,7 @@ const openai = new OpenAIApi(config)
 console.log("textInput:", textInput)
 
 textInput.addEventListener("keyup", (e) => {
-    console.log(textInput.value)
+    // console.log(textInput.value)
     if (textInput.value) generateButton.disabled = false
     else generateButton.disabled = true
 })
@@ -34,7 +34,6 @@ function generateImage(e) {
                 image.src = d.url
                 imageContainer.appendChild(image)
             }
-            console.log("image generated", image)
         })
 }
 
