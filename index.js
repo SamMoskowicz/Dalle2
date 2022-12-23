@@ -6,7 +6,7 @@ const imageContainer = document.getElementById("image-container")
 
 const { Configuration, OpenAIApi } = require("openai")
 const config = new Configuration({
-    apiKey: "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"
+    apiKey: "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"
 })
 
 const openai = new OpenAIApi(config)
